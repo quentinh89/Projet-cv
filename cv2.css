@@ -26,7 +26,6 @@ p
 .bloc_gauche
 {
 	width: 20%;
-	height: 100%;
 }
 
 .introduction .texte_gauche
@@ -37,7 +36,7 @@ p
 .introduction .texte_gauche .photo
 {
 	width: 100%;
-	height: 100%;
+	
 }
 
 .photo
@@ -78,7 +77,6 @@ p
 	background-color: black;
 	color: #CC0000;
 	justify-content: center;
-
 }
 
 .titre_gauche
@@ -86,10 +84,17 @@ p
 	justify-content: center;
 }
 
+.info
+{
+	display: flex;
+	height: 100%;
+}
+
 #a_propos
 {
-	height: 100%;
 	width: 100%;
+	height: 100%;
+
 }
 
 #texte_a_propos
@@ -171,7 +176,7 @@ hr
 h2
 {
 	border-bottom: 2px solid  #CC0000;
-	margin-top: 18px;
+	margin-top: 20px;
 	margin-bottom: 17px;
 	font-size: 1.5em;
 	display: flex;
@@ -396,6 +401,6 @@ h2 i
 		width: 100%;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 }
