@@ -26,6 +26,7 @@ p
 .bloc_gauche
 {
 	width: 20%;
+	display: flex;
 }
 
 .introduction .texte_gauche
@@ -82,19 +83,16 @@ p
 .titre_gauche
 {
 	justify-content: center;
+	display: flex;
+	text-align: center;
+
 }
 
 .info
 {
 	display: flex;
+	justify-content: space-around;
 	height: 100%;
-}
-
-#a_propos
-{
-	width: 100%;
-	height: 100%;
-
 }
 
 #texte_a_propos
@@ -133,6 +131,7 @@ p
 {
 	display: flex;
 	justify-content: space-around;
+	background-color: #CC0000;
 
 }
 
@@ -219,38 +218,21 @@ h2 i
 
 #reco
 {
-	width: 40%;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	
+	justify-content: space-around;	
 }
-
-.texte_reco
-{
-	height: 25px;
-}
-
 
 @media all and (max-width: 1030px)
 {
-	.introduction
-	{
-		width: 100%;
-		display: flex;
-		
-	}
-
 	.bloc_gauche
 	{
-		width: 35%;
-		display: flex;
-		flex-direction: column;
+		width: 50%;
 	}
 
 	#texte_a_propos
     {
-	    display: flex;
 	    text-align: justify; 
 	    width: 100%;
     }
@@ -267,6 +249,13 @@ h2 i
 		justify-content:space-around;
 	}
 
+	.info
+	{
+		justify-content: space-around;
+		height: 100%;
+	}
+
+
 	p
 	{
 		width: 90%;
@@ -274,16 +263,9 @@ h2 i
     	text-align: justify;
 	}
 
-	ul li
-	{
-		display: flex;
-		width: auto;
-	}
-
 	.date
 	{
 		width: 50%;
-		display: flex;
 		font-weight: bold;
 	}	
 
@@ -293,55 +275,22 @@ h2 i
 		font-family: arial, sans-serif;
 	}
 
-	#reco
-	{
-    	width: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		font-size: 10px;
-	}
-
-	.texte_reco
-	{
-		font-size: 10px;
-		height: 25px;
-	}
 }
 @media all and (max-width: 600px)
 {
-	.introduction
-	{
-		width: 100%;
-		display: flex;	
-	}
-
-	.bloc_gauche
-	{
-		width: 100%;
-		display: flex;
-	}
-
-	ul li
-	{
-
-		display: flex;
-		width: auto;
-
-	}
-
 	.date
 	{
 		width: 100%;
-		display: flex;
 		font-weight: bold;
 		margin-bottom: 15px;
 	}
 
-	.titre_gauche
+	.info
 	{
-		justify-content:space-around;
+		justify-content: space-around;
+		height: 100%;
 	}
+
 	.complement
 	{
 		background-color: black;
@@ -358,7 +307,6 @@ h2 i
 	#reco
 	{
 		width: 100%;
-		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
@@ -366,7 +314,6 @@ h2 i
 	.texte_reco
 	{
 		font-size: 10px;
-		height: 25px;
 	}
 	.emplois
 	{
@@ -379,27 +326,18 @@ h2 i
 	.introduction
 	{
 		width: 100%;
-		display: flex;
 		flex-direction: column;
 	}
 
 	.bloc_gauche
 	{
 		width: 100%;
-		display: flex;
 		flex-direction: column;
-	}
-
-	ul li
-	{
-		display: flex;
-		width: auto;
 	}
 
 	#reco
 	{
 		width: 100%;
-		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
