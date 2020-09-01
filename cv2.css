@@ -4,13 +4,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	list-style: none;
-
 }
 
 body
 {
-	font-size: 14px;
-	
+	font-size: 14px;	
 }
 
 p
@@ -230,20 +228,7 @@ h2 i
 	{
 		width: 50%;
 	}
-
-	#texte_a_propos
-    {
-	    text-align: justify; 
-	    width: 100%;
-    }
-
-	.complement
-	{
-		background-color: black;
-		color: #CC0000;
-    	text-align: center;
-	}
-
+	
 	.titre_gauche
 	{
 		justify-content:space-around;
@@ -253,14 +238,6 @@ h2 i
 	{
 		justify-content: space-around;
 		height: 100%;
-	}
-
-
-	p
-	{
-		width: 90%;
-		justify-content: center;
-    	text-align: justify;
 	}
 
 	.date
@@ -280,22 +257,8 @@ h2 i
 {
 	.date
 	{
-		width: 100%;
 		font-weight: bold;
 		margin-bottom: 15px;
-	}
-
-	.info
-	{
-		justify-content: space-around;
-		height: 100%;
-	}
-
-	.complement
-	{
-		background-color: black;
-		color: #CC0000;
-		justify-content: center;
 	}
 
 	.para_droit
@@ -307,8 +270,7 @@ h2 i
 	#reco
 	{
 		width: 100%;
-		align-items: center;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.texte_reco
@@ -324,20 +286,18 @@ h2 i
 @media all and (max-width: 440px)
 {
 	.introduction
-	{
-		width: 100%;
+	{	
 		flex-direction: column;
 	}
 
 	.bloc_gauche
 	{
 		width: 100%;
-		flex-direction: column;
 	}
 
 	#reco
 	{
-		width: 100%;
+		
 		align-items: center;
 		justify-content: space-around;
 	}
