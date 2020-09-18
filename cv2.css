@@ -29,7 +29,7 @@ p
 
 .introduction .texte_gauche
 {
-	background: #CC0000;
+	background: #0000FF;
 }
 
 .introduction .texte_gauche .photo
@@ -75,12 +75,13 @@ ul
 {
 	font-size: 15px;
 	font-style: italic;
+	color: #FFFFFF;
 }
 
 .complement
 {
 	background-color: black;
-	color: #CC0000;
+	color: #0000FF;
 	justify-content: center;
 }
 
@@ -89,6 +90,7 @@ ul
 	justify-content: center;
 	display: flex;
 	text-align: center;
+	color: #FFFFFF;
 
 }
 
@@ -109,21 +111,22 @@ ul
 	padding: 0 20px;
 	font-size: 15px;
 	font-style: italic;
+	color: #FFFFFF;
 
 }
 
 #complement_loisirs
 {
 	background-color: black;
-	color: #CC0000;
+	color: #0000FF;
 	text-align: center;
 }
 
 .icone
 {
 	font-size: 2em;
-	color: black;
-	border:2px solid black;
+	color: #FFFFFF;
+	border:2px solid #FFFFFF;
 	width:50px;
 	height:50px;
 	border-radius: 100%;
@@ -137,14 +140,14 @@ ul
 {
 	display: flex;
 	justify-content: space-around;
-	background-color: #CC0000;
+	background-color: #0000FF;
 
 }
 
 .icone_date
 {
 	font-size: 8px;
-	color:#CC0000;
+	color:#0000FF;
 	margin-right: 4px;
 }
 
@@ -160,7 +163,7 @@ ul
 
 span
 {
-	color: #CC0000;
+	color: #0000FF;
 }
 
 .dev_web
@@ -175,12 +178,12 @@ span
 hr
 {
 	width: 10%;
-	border-top:2px solid #CC0000;
+	border-top:2px solid #0000FF;
 }
 
 h2
 {
-	border-bottom: 2px solid  #CC0000;
+	border-bottom: 2px solid  #0000FF;
 	margin-top: 16px;
 	margin-bottom: 16px;
 	font-size: 1.5em;
@@ -192,7 +195,7 @@ h2 i
 {
 	margin-right: 5px;
 	font-size: 1em;
-	color: #CC0000;
+	color: #0000FF;
 }
 
 .emplois
